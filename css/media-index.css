@@ -1,0 +1,190 @@
+@media screen and (max-width: 768px){
+    body{
+        background-color: black;
+        margin: 0;
+        font-family: Ubuntu Sans;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    .header{
+        background-repeat: no-repeat;
+        height: 270px;
+        background-size: 100%;
+        max-width: 360px;
+    }
+    .header_menu{
+        display: none;
+    }
+    .img__logo__mobile{
+        width: 80px; 
+        margin-left: 20px; 
+    }
+    .header-zagolovok{
+        width: 330px;
+        font-size: 24px;
+        margin: 0 auto;
+    }
+    .h1-zagolovok{
+        width: 270px;
+        margin: 30px 0 10px 0;
+        font-size: 18px;
+    }
+    .span-zagolovok{
+        font-size: 15px;
+    }
+    .p-zagolovok{
+        width: 270px;
+        margin: 0;
+        font-size: 14px;
+    }
+    /* about container */
+    .about-container{
+        width: auto;
+        height: 600px;
+    }
+    .h1-about{
+        margin: 0;
+        font-size: 18px;
+    }
+    .zagolovok-info{
+        margin-top: 30px;
+        display: block;
+        text-align: center;
+    }
+    .img-about{
+        max-width: 250px;
+        margin: o auto;
+        border-radius: 50%;
+    }
+    .about-info{
+        text-align: center;
+    }
+    .h1-info-about{
+        font-size: 16px;
+    }
+    .span-about{
+        font-size: 18px;
+    }
+    .p-about{
+        text-align: start;
+        margin: 0 auto;
+        width: 340px;
+        font-size: 16px;
+    }
+    /* realty container */
+    .realty-container{
+        width: auto;
+        height: 1530px;
+    }
+    .h1-realty{
+        font-size: 20px;
+    }
+    .price-svg{
+        width: 30px;
+        height: 30px;
+    }
+    .realty-grid{
+        grid-template-columns: repeat(1,3fr);
+        margin: 30px auto 0 auto;
+    }
+    .realty-card{
+        max-width: 330px;
+    }
+    .img-realty{
+        max-width: 300px;
+    }
+    .realty-info{
+        max-width: 300px;
+    }
+    .p-streets{
+        width: 200px;
+    }
+    .h1-realty-name{
+        max-width: 300px;
+        font-size: 20px;
+    }
+    .p-realty-price{
+        width: 300px;
+    }
+    .more-btn{
+        margin-bottom: 30px;
+    }
+    /* galary container */
+    .galary-container{
+        z-index: 1;
+        width: auto;
+        height: 400px;
+    }
+    .h1-galary{
+        font-size: 18px;
+    }
+    .galary-display{
+        width: 250px;
+        z-index: 1;
+    }
+    .galary{
+        z-index: 1;
+    }
+    .step-container{
+        width: auto;
+        height: 1150px;
+    }
+    .h1-step{
+        width: 220px;
+        font-size: 18px;
+    }
+    .step-flex{
+        width: 340px;
+        display: block;
+        margin: 30px auto;
+    }
+    .step-card{
+        width: 330px;
+        margin: 30px 0;
+    }
+    /* contact-container */
+    .contact-container{
+        width: auto;
+        height: 700px;
+    }
+    .h1-container{
+        font-size: 18px;
+    }
+    .contact-wraper{
+        margin-top: 30px;
+        display: block;
+    }
+    .contact-info{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .h1-adress{
+        width: 300px;
+    }
+    .contact_e-mail{
+        width: 300px;
+    }
+    .map{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    /* footer container */
+    .footer-container{
+        width: auto;
+    }
+    .footer-logo{
+        width: 120px;
+    }
+    .footer-wraper{
+        display: none;
+    }
+    .footer-try-now{
+        width: 160px;
+    }
+    .a-try-now{
+        font-size: 18px;
+    }
+}

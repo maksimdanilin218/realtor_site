@@ -1,0 +1,363 @@
+body{
+    background-color: black;
+    margin-top: 0;
+    font-family: Ubuntu Sans;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Header */
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    background-image: url(../img/sell_house.png);
+    background-repeat: no-repeat;
+    height: 980px;
+}
+.header_menu {
+    height: 90px;
+    width: 1440px;
+    margin: 0 auto 0 auto;
+    border-radius: 0 0 20px 20px;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+.header_menu-logo {
+    width: 180px;
+}
+.headre-info {
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+}
+.a-header {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Ubuntu Sans;
+}
+.try-now {
+    line-height: 40px;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    border-radius: 15px;
+    border-style: solid;
+}
+.a-try-now {
+    text-decoration: none;
+    color: #d6882f;
+    font-size: 20px;
+    font-family: Ubuntu Sans;
+}
+/* Header-zagolovok */
+.header-zagolovok {
+    width: 1000px;
+}
+.h1-zagolovok {
+    width: 500px;
+    color: #fff;
+    font-size: 50px;
+    font-family: Ubuntu Sans;
+    text-align: start;
+    margin-left: 90px;
+    margin-top: 200px;
+}
+.span-zagolovok{
+    color: #d6882f;
+}
+.p-zagolovok {
+    margin-left: 90px;
+    width: 600px;
+    color: #fff;
+    font-size: 22px;
+    font-family: Ubuntu Sans;
+}
+.p-span{
+    font-size: 22px;
+}
+/* about us container */
+.about-container {
+    width: 1440px;
+    height: 700px;
+    margin: 0 auto 0 auto;
+}
+.h1-about {
+    margin-top: 90px;
+    color: #d6882f;
+    font-size: 48px;
+    text-align: center;
+}
+.house-svg{
+    width: 25px;
+    height: 25px;
+    fill: #d6882f;
+    text-align: center;
+}
+.zagolovok-info {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.h1-info-about {
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+}
+.p-about {
+    font-size: 24px;
+    color: #fff;
+    width: 600px;
+}
+.img-about {
+    width: 600px;
+}
+.span-about{
+    color: #d6882f;
+    font-size: 28px;
+    font-family: Ubuntu Sans;
+}
+/* realty container */
+.realty-container {
+    width: 1440px;
+    height: 750px;
+    margin: 0 auto;
+}
+.h1-realty {
+    color: #d6882f;
+    text-align: center;
+    font-size: 48px;
+}
+.price-svg{
+    width: 50px;
+    height: 50px;
+    fill: #d6882f;
+}
+.realty-grid {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    justify-items: center;
+}
+.realty-card {
+}
+.img-realty {
+    width: 400px;
+}
+.realty-info {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-evenly;
+}
+.p-streets {
+    color: #fff;
+    font-size: 18px;
+}
+.p-info-realty {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+.bed-svg{
+    width: 25px;
+    height: 25px;
+    fill: #d6882f;
+}
+.bath-svg{
+    width: 25px;
+    height: 25px;
+    fill: #d6882f;
+}
+.h1-realty-name {
+    color: #fff;
+    width: 400px;
+    text-align: start;
+    margin: 0;
+}
+.p-realty-price {
+    width: 400px;
+    color: #fff;
+    text-align: start;
+    font-size: 20px;
+}
+.more-btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #d6882f;
+    text-align: center;
+    line-height: 30px;
+}
+.a-more {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.galary-container {
+    width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+
+}
+.h1-galary {
+    color: #d6882f;
+    font-size: 48px;
+    text-align: center;
+}
+.galary-display {
+    display: flex;
+    width: 1440px;
+
+}
+
+.galary {
+    justify-content: space-around;
+}
+.swiper-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* step container */
+.step-container {
+    width: 1440px;
+    height: 550px;
+    margin: 0 auto;
+}
+.h1-step {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    color: #d6882f;
+    font-size: 48px;
+}
+.step-flex {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1440px;
+}
+.step-card {
+    width: 350px;
+    height: 330px;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 15px;
+    
+}
+.house-svg2{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    fill: #d6882f;
+}
+.handshake-svg{
+    width: 40px;
+    height: 40px;
+    fill: #d6882f;
+    margin-top: 20px;
+}
+.inspection-svg{
+    width: 40px;
+    height: 40px;
+    fill: #d6882f;
+    margin-top: 20px;
+}
+.h1-name-step {
+    color: #d6882f;
+    font-size: 18px;
+}
+.p-step {
+    color: black;
+    font-size: 14px;
+    text-align: start;
+    width: 300px;
+    margin: 0 auto;
+}
+/* contact-container */
+.contact-container {
+    width: 1440px;
+    height: 500px;
+    margin: 0 auto;
+}
+.h1-container {
+    color: #d6882f;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 90px;
+
+}
+.contact-wraper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.h1-adress {
+    color: #fff;
+    font-size: 24px;
+}
+.span-contact {
+    color: #d6882f;
+}
+.h1-mail {
+    color: #fff;
+    font-size: 24px;
+}
+.h1-number {
+    color: #fff;
+    font-size: 24px;
+}
+/* footer container */
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #332c23;
+}
+.footer-logo {
+    width: 180px;
+}
+.footer-wraper {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.a-header {
+    text-decoration: none;
+    color: #fff;
+}
+.footer-try-now {
+    line-height: 40px;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    border-radius: 15px;
+    border-style: solid;
+}
+.a-try-now {
+    text-decoration: none;
+    color: #d6882f;
+}
+
+
+
+
+
+
+
+
+
+
+
