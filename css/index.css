@@ -25,6 +25,9 @@ html{
     justify-content: space-around;
     display: flex;
 }
+.mobile-header-menu{
+    display: none;
+}
 .header_menu-logo {
     width: 180px;
 }
