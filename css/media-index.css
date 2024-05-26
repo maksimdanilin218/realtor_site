@@ -9,7 +9,8 @@
     }
     .header{
         background-repeat: no-repeat;
-        height: 270px;
+        background-image: none;
+        height: 900px;
         background-size: 100%;
         max-width: 360px;
     }
@@ -18,10 +19,13 @@
     }
     .mobile-header-menu{
         display: flex;
-        height: 60px;
-        
+        height: 90px;
         justify-content: space-between;
         align-items: center;
+    }
+    .logotip{
+        width: 130px;
+        height: 60px;
     }
     .nav__info{
         overflow: hidden;
@@ -55,7 +59,7 @@
         content: '';
         position: absolute;
         height: 3px;
-        width: 25px;
+        width: 30px;
         background-color: coral;
         transition: all 0.5s ease 0s;
     }
@@ -136,26 +140,27 @@
         color: white;
     }
     .img__logo__mobile{
-        width: 80px; 
+        width: 120px; 
         margin-left: 20px; 
     }
+    /* header zagolovok */
     .header-zagolovok{
         width: 330px;
         font-size: 24px;
-        margin: 0 auto;
+        margin: 200px auto 0 auto;
     }
     .h1-zagolovok{
-        width: 270px;
+        width: 300px;
         margin: 30px 0 10px 0;
-        font-size: 18px;
+        font-size: 22px;
     }
     .span-zagolovok{
-        font-size: 15px;
+        font-size: 24px;
     }
     .p-zagolovok{
-        width: 270px;
-        margin: 0;
-        font-size: 14px;
+        width: 330px;
+        margin: 40px auto 0 0;
+        font-size: 18px;
     }
     /* about container */
     .about-container{
@@ -164,7 +169,7 @@
     }
     .h1-about{
         margin: 0;
-        font-size: 18px;
+        font-size: 24px;
     }
     .zagolovok-info{
         margin-top: 30px;
@@ -178,9 +183,12 @@
     }
     .about-info{
         text-align: center;
+        width: 330px;
+        margin: 0 auto;
     }
     .h1-info-about{
         font-size: 16px;
+        margin-bottom: 40px;
     }
     .span-about{
         font-size: 18px;
@@ -197,7 +205,7 @@
         height: 1530px;
     }
     .h1-realty{
-        font-size: 20px;
+        font-size: 24px;
     }
     .price-svg{
         width: 30px;
@@ -236,7 +244,7 @@
         height: 400px;
     }
     .h1-galary{
-        font-size: 18px;
+        font-size: 24px;
     }
     .galary-display{
         width: 250px;
@@ -250,8 +258,8 @@
         height: 1150px;
     }
     .h1-step{
-        width: 220px;
-        font-size: 18px;
+        width: 270px;
+        font-size: 24px;
     }
     .step-flex{
         width: 340px;
@@ -268,7 +276,7 @@
         height: 700px;
     }
     .h1-container{
-        font-size: 18px;
+        font-size: 24px;
     }
     .contact-wraper{
         margin-top: 30px;
