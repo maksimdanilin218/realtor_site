@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    margin-top: 0;
+    margin: 0;
     font-family: Ubuntu Sans;
 }
 html{
@@ -8,10 +8,9 @@ html{
 }
 /* Header */
 .header{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1440px;
+    width: auto;
     background-image: url(../img/sell_house.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     height: 980px;
 }
@@ -322,7 +321,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 1440px;
+    width: auto;
     height: 100px;
     margin: 0 auto;
     background-color: #332c23;
